@@ -25,9 +25,9 @@
   education and experience
 - Photo, résumé and all four links are real
 - Files uploaded to my fork and moved to branch student/alexandre-pasquini
-- Pull request opened against rodolfocapdevilla-au/msai-portfolio main: PR #__ (add link)
+- Pull request opened against rodolfocapdevilla-au/msai-portfolio main: PR #62 (https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/62)
 
 ## Next step
-1. Paste the PR link in the class chat
-2. Add REPORT.md with the commit hashes and PR link
+1. Paste the PR link in the class chat and wait for review
+2. Keep REPORT.md up to date (notes received, classmate review)
 3. Optional: replace the placeholder images on the project cards with my own
