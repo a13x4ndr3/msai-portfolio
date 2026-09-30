@@ -8,8 +8,8 @@
 - My four links:
   1. LinkedIn: https://www.linkedin.com/in/juliana-do-espirito-santo-67005115a (on my page ✓)
   2. GitHub: https://github.com/jujusanto (on my page ✓)
-  3. CV / Résumé: resume.pdf in my student folder (on my page ✓, not saved to GitHub yet)
-  4. Fourth link: removed (no address yet) — LinkedIn, GitHub and Résumé are enough
+  3. CV / Résumé: removed to keep my personal details private (original CV stays in Downloads)
+  4. Fourth link: removed (no address yet) — LinkedIn and GitHub are a complete set
 - Finished so far:
   - Created CLAUDE.md with my details and the rules for Claude
   - Created CONTEXT.md (this file) to track my progress
@@ -38,7 +38,7 @@
   - Project card 1 picture: project-marketing-system.jpg, the workbook cover cut from my flyer (556 × 417, 94 KB, no price shown)
   - Fixed my page: removed the empty fourth link button, deleted project cards 2–4, filled in Education & Experience from my CV
   - Saved my work (commit "Fix links, project cards and education"), without resume.pdf
+  - Removed the Résumé button and the CV copy to keep my phone, email and city private (commit "Remove résumé to keep personal details private")
 - Waiting:
-  - resume.pdf is NOT saved yet — my CV shows my phone number, personal email and city; decide before it goes public
   - Nothing sent to GitHub yet from tonight
-- Next step: decide about resume.pdf, then send my branch to GitHub and open a new pull request
+- Next step: send my branch to GitHub and open a new pull request

@@ -14,7 +14,7 @@
 ## My four links
 1. LinkedIn — https://www.linkedin.com/in/juliana-do-espirito-santo-67005115a
 2. GitHub — https://github.com/jujusanto
-3. CV / Résumé — resume.pdf (in my student folder)
+3. CV / Résumé — removed to keep my personal details private
 4. Fourth link — removed (no address yet)
 
 ## Steps I completed
@@ -35,6 +35,8 @@
 | Commit | Date | Message |
 |---|---|---|
 | `9f056e5` | 2026-09-28 21:32 | Add Juliana do Espirito Santo page |
+| `5959526` | 2026-09-30 | Fix links, project cards and education |
+| (this save) | 2026-09-30 | Remove résumé to keep personal details private |
 
 ## Still to do
-Decide whether my public CV should show my phone number and personal email, then send tonight's work to GitHub.
+Send tonight's work to GitHub and open a new pull request.
