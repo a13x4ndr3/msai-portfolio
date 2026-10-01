@@ -47,4 +47,6 @@
   - Rewrote project card 1 in plain language (no marketing words)
   - Made pictures for cards 2 and 3: project-local-assistant.svg and project-patient-conversion.svg (site blue, a few KB each)
   - Saved and sent the project cards and pictures to pull request #76 (commit "Add project cards with pictures")
+  - Education & Experience: checked against my CV, used the CV's exact titles, added dates and my volunteer role (CV stays private in Downloads)
+  - Saved and sent Education & Experience to pull request #76
 - Next step: wait for my teacher to merge pull request #76

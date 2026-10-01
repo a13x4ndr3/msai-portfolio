@@ -40,7 +40,8 @@
 | `9f056e5` | 2026-09-28 21:32 | Add Juliana do Espirito Santo page |
 | `5959526` | 2026-09-30 | Fix links, project cards and education |
 | `a8f7208` | 2026-09-30 | Remove résumé to keep personal details private |
-| (this save) | 2026-09-30 | Add project cards with pictures |
+| `6b65958` | 2026-09-30 | Add project cards with pictures |
+| (this save) | 2026-09-30 | Add dates and volunteer role to education and experience |
 
 ## Still to do
 Wait for my teacher to merge pull request #76.
