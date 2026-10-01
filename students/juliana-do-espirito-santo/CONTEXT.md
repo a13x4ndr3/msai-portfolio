@@ -41,7 +41,7 @@
 - Filled in Education & Experience from my CV, then removed Peter Coppola to match my new CV
 - Rewrote my one line: starts with what I have done, no repeat of my name, no marketing words
 - Privacy: my first CV showed my phone number, so it was never sent. My new CV (no phone, no city) is the only one on GitHub.
-- Opened pull request #76 "Update Juliana do Espírito Santo page" and updated its description:
+- Opened pull request #76, updated its description, and renamed it "Round two — Juliana do Espírito Santo":
   https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/76
 - Saves sent to #76:
   - 5959526 Fix links, project cards and education
@@ -50,6 +50,7 @@
   - cf1767d Add dates and volunteer role to education and experience
   - fdae4ac Add public CV and match experience to it
   - 2b96801 Update CONTEXT.md
+  - abf2363 Rewrite my first line and update notes
 
 ## Monday (2026-09-28) — setup
 - Wrote CLAUDE.md and CONTEXT.md
@@ -64,6 +65,10 @@
 - Did I run the test of Llama 3.2 3B on my MacBook Air (about 45 tokens per second)? If yes, it can go on card 2.
 - Is the 500-patient dataset in project 3 real or sample data?
 - My Gmail address is on my public CV — OK to keep?
+
+## My current pull request
+- #76 "Round two — Juliana do Espírito Santo" (open): https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/76
+- Rule: only one pull request open at a time. While it is open, keep pushing to it. A merged one never reopens — after my teacher merges, open the next one from the SAME branch.
 
 ## Next step
 - Wait for my teacher to merge pull request #76
