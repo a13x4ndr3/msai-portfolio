@@ -8,7 +8,7 @@
 - My four links:
   1. LinkedIn: https://www.linkedin.com/in/juliana-do-espirito-santo-67005115a (on my page ✓)
   2. GitHub: https://github.com/jujusanto (on my page ✓)
-  3. CV / Résumé: removed to keep my personal details private (original CV stays in Downloads)
+  3. CV / Résumé: resume.pdf in my student folder — my own new version (…Final-2.pdf), no phone number or city
   4. Fourth link: removed (no address yet) — LinkedIn and GitHub are a complete set
 - Finished so far:
   - Created CLAUDE.md with my details and the rules for Claude
@@ -49,4 +49,7 @@
   - Saved and sent the project cards and pictures to pull request #76 (commit "Add project cards with pictures")
   - Education & Experience: checked against my CV, used the CV's exact titles, added dates and my volunteer role (CV stays private in Downloads)
   - Saved and sent Education & Experience to pull request #76
+  - Replaced resume.pdf with my own new CV (…Final-2.pdf, 433 KB, 1 page, no phone number); Résumé button is back
+  - Removed Peter Coppola from Experience to match my new CV
+  - Saved and sent my new CV, Résumé button and Experience change to pull request #76
 - Next step: wait for my teacher to merge pull request #76

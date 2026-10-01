@@ -14,7 +14,7 @@
 ## My four links
 1. LinkedIn — https://www.linkedin.com/in/juliana-do-espirito-santo-67005115a
 2. GitHub — https://github.com/jujusanto
-3. CV / Résumé — removed to keep my personal details private
+3. CV / Résumé — resume.pdf (public version, no phone number)
 4. Fourth link — removed (no address yet)
 
 ## Steps I completed
@@ -41,7 +41,8 @@
 | `5959526` | 2026-09-30 | Fix links, project cards and education |
 | `a8f7208` | 2026-09-30 | Remove résumé to keep personal details private |
 | `6b65958` | 2026-09-30 | Add project cards with pictures |
-| (this save) | 2026-09-30 | Add dates and volunteer role to education and experience |
+| `cf1767d` | 2026-09-30 | Add dates and volunteer role to education and experience |
+| (this save) | 2026-09-30 | Add public CV and match experience to it |
 
 ## Still to do
 Wait for my teacher to merge pull request #76.
