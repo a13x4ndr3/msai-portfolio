@@ -39,6 +39,12 @@
   - Fixed my page: removed the empty fourth link button, deleted project cards 2–4, filled in Education & Experience from my CV
   - Saved my work (commit "Fix links, project cards and education"), without resume.pdf
   - Removed the Résumé button and the CV copy to keep my phone, email and city private (commit "Remove résumé to keep personal details private")
-- Waiting:
-  - Nothing sent to GitHub yet from tonight
-- Next step: send my branch to GitHub and open a new pull request
+  - Sent my branch to my fork and opened pull request #76 "Update Juliana do Espírito Santo page" (waiting for my teacher to review):
+    https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/76
+  - Added 2 project cards from my course projects (not saved yet — check every sentence is true):
+    - Local AI Assistant for an Orthodontic Front Office (from "Final project 1.pdf", a proposal)
+    - Predicting Which Orthodontic Patients Start Treatment (from "Project 2.pdf", data preparation and charts)
+  - Rewrote project card 1 in plain language (no marketing words)
+  - Made pictures for cards 2 and 3: project-local-assistant.svg and project-patient-conversion.svg (site blue, a few KB each)
+  - Saved and sent the project cards and pictures to pull request #76 (commit "Add project cards with pictures")
+- Next step: wait for my teacher to merge pull request #76
