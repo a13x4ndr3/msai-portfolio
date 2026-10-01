@@ -9,13 +9,12 @@
 | **Pull requests** | [#63 — Add Juliana do Espirito Santo page](https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/63) (merged) · [#76 — Update Juliana do Espírito Santo page](https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/76) (open, waiting for review) |
 
 ## My one line
-> I’m Juliana do Espírito Santo, a Master’s student in Artificial Intelligence passionate about AI, marketing, and customer experience. I’m exploring how technology can help businesses grow while keeping the human connection at the center.
+> After more than ten years running the brand and marketing of an online store, I now study Artificial Intelligence at Atlantis University. My projects look at how AI can answer customers’ routine questions and show which people go on to become customers.
 
-## My four links
+## My links
 1. LinkedIn — https://www.linkedin.com/in/juliana-do-espirito-santo-67005115a
 2. GitHub — https://github.com/jujusanto
 3. CV / Résumé — resume.pdf (public version, no phone number)
-4. Fourth link — removed (no address yet)
 
 ## Steps I completed
 1. Wrote CLAUDE.md (about me and rules for Claude) and CONTEXT.md (my progress).
@@ -33,6 +32,8 @@
 13. Updated from the class project and merged main into my branch.
 14. Filled in Education & Experience, removed empty cards and links, kept my CV private.
 15. Wrote three plain-language project cards with pictures and opened pull request #76.
+16. Added a public version of my CV (no phone number or address) and matched Experience to it.
+17. Updated the pull request #76 description to cover all my changes.
 
 ## My commits
 | Commit | Date | Message |
@@ -42,7 +43,9 @@
 | `a8f7208` | 2026-09-30 | Remove résumé to keep personal details private |
 | `6b65958` | 2026-09-30 | Add project cards with pictures |
 | `cf1767d` | 2026-09-30 | Add dates and volunteer role to education and experience |
-| (this save) | 2026-09-30 | Add public CV and match experience to it |
+| `fdae4ac` | 2026-09-30 | Add public CV and match experience to it |
+| `2b96801` | 2026-09-30 | Update CONTEXT.md |
+| (this save) | 2026-09-30 | Rewrite my first line and update notes |
 
 ## Still to do
 Wait for my teacher to merge pull request #76.

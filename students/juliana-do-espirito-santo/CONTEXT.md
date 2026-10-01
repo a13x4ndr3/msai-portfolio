@@ -1,56 +1,69 @@
 # My page — status
+
+## Who I am
 - My computer: macOS
 - My name: Juliana do Espírito Santo
 - My GitHub username: jujusanto
-- My branch name: student/juliana-do-espirito-santo
+- My fork: https://github.com/jujusanto/msai-portfolio
+- My branch name: student/juliana-do-espirito-santo (one branch all term — never make a second one)
 - My folder name: students/juliana-do-espirito-santo (inside msai-portfolio)
-- My one line: I’m Juliana do Espírito Santo, a Master’s student in Artificial Intelligence passionate about AI, marketing, and customer experience. I’m exploring how technology can help businesses grow while keeping the human connection at the center.
-- My four links:
-  1. LinkedIn: https://www.linkedin.com/in/juliana-do-espirito-santo-67005115a (on my page ✓)
-  2. GitHub: https://github.com/jujusanto (on my page ✓)
-  3. CV / Résumé: resume.pdf in my student folder — my own new version (…Final-2.pdf), no phone number or city
-  4. Fourth link: removed (no address yet) — LinkedIn and GitHub are a complete set
-- Finished so far:
-  - Created CLAUDE.md with my details and the rules for Claude
-  - Created CONTEXT.md (this file) to track my progress
-  - Installed the GitHub command line tool (gh) version 2.101.0, without Homebrew and without needing my password
-  - Signed in to gh as jujusanto (using HTTPS, through the web browser)
-  - Forked the class project to my account: https://github.com/jujusanto/msai-portfolio
-  - Cloned my fork to my computer: /Users/julyl/Documents/my-page/msai-portfolio
-    - "origin" = my fork (jujusanto), "upstream" = the class project (rodolfocapdevilla-au)
-  - Created my branch student/juliana-do-espirito-santo and switched to it
-  - Copied _template into my own folder: students/juliana-do-espirito-santo (index.html, photo.jpg)
-  - On my index.html: put my name "Juliana do Espírito Santo" in all 4 places that said "Your Name" (tab title, top badge, photo description, main heading)
-  - On my index.html: replaced the template quote with my one line (above)
-  - Added my headshot as photo.jpg in my student folder (JPG, 800 × 800 pixels, 126 KB)
-  - On my index.html: set my LinkedIn and GitHub links (CV and fourth link still TO DO)
-  - Saved my work (commit "Add Juliana do Espirito Santo page") with only my student folder, and sent my branch to my fork on GitHub:
-    https://github.com/jujusanto/msai-portfolio/tree/student/juliana-do-espirito-santo
-  - Opened my pull request "Add Juliana do Espirito Santo page" — MERGED by my teacher ✓:
-    https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/63
-  - Copied CONTEXT.md (this file) into my student folder
-  - Wrote REPORT.md in my student folder (one-page summary of my work)
-  - Added the accent to my name on my page, CONTEXT.md and REPORT.md: Juliana do Espírito Santo
-  - Switched to main and pulled the latest class project into my fork and my laptop (23 new commits, now at c70e697)
-  - Switched back to my branch and merged the latest main into it (no new branch — one branch all term)
-  - Added my CV as resume.pdf in my student folder (1 page, 849 KB), so the Résumé button works
-  - Project card 1: "The Human-Centered AI Marketing System" with a short description (the framework PDF stays private — not uploaded)
-  - Project card 1 picture: project-marketing-system.jpg, the workbook cover cut from my flyer (556 × 417, 94 KB, no price shown)
-  - Fixed my page: removed the empty fourth link button, deleted project cards 2–4, filled in Education & Experience from my CV
-  - Saved my work (commit "Fix links, project cards and education"), without resume.pdf
-  - Removed the Résumé button and the CV copy to keep my phone, email and city private (commit "Remove résumé to keep personal details private")
-  - Sent my branch to my fork and opened pull request #76 "Update Juliana do Espírito Santo page" (waiting for my teacher to review):
-    https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/76
-  - Added 2 project cards from my course projects (not saved yet — check every sentence is true):
-    - Local AI Assistant for an Orthodontic Front Office (from "Final project 1.pdf", a proposal)
-    - Predicting Which Orthodontic Patients Start Treatment (from "Project 2.pdf", data preparation and charts)
-  - Rewrote project card 1 in plain language (no marketing words)
-  - Made pictures for cards 2 and 3: project-local-assistant.svg and project-patient-conversion.svg (site blue, a few KB each)
-  - Saved and sent the project cards and pictures to pull request #76 (commit "Add project cards with pictures")
-  - Education & Experience: checked against my CV, used the CV's exact titles, added dates and my volunteer role (CV stays private in Downloads)
-  - Saved and sent Education & Experience to pull request #76
-  - Replaced resume.pdf with my own new CV (…Final-2.pdf, 433 KB, 1 page, no phone number); Résumé button is back
-  - Removed Peter Coppola from Experience to match my new CV
-  - Saved and sent my new CV, Résumé button and Experience change to pull request #76
-  - Updated the description of pull request #76 to cover all my changes
-- Next step: wait for my teacher to merge pull request #76
+- On my laptop: /Users/julyl/Documents/my-page/msai-portfolio
+  - "origin" = my fork (jujusanto), "upstream" = the class project (rodolfocapdevilla-au)
+
+## My page as it is now (index.html)
+- Tab title: "Juliana do Espírito Santo — MS in Artificial Intelligence"
+- Top bar: badge "Juliana do Espírito Santo" · Projects · Education & Experience · All students · MS in AI
+- Left rail:
+  - Photo: photo.jpg (my headshot, 800 × 800, 126 KB)
+  - Buttons:
+    1. LinkedIn profile → https://www.linkedin.com/in/juliana-do-espirito-santo-67005115a
+    2. GitHub profile → https://github.com/jujusanto
+    3. Résumé → resume.pdf (my own public CV, "…Final-2.pdf", 433 KB, 1 page, no phone number or address)
+  - No fourth button (no address for it)
+- Heading: "Juliana do Espírito Santo"
+- My one line (quote): After more than ten years running the brand and marketing of an online store, I now study Artificial Intelligence at Atlantis University. My projects look at how AI can answer customers’ routine questions and show which people go on to become customers.
+- Block "Current Projects" — 3 cards, three sentences each (what it is, what I did, what came out):
+  1. "The Human-Centered AI Marketing System" — picture project-marketing-system.jpg (workbook cover from my flyer, 94 KB, no price). The framework PDF stays private.
+  2. "Local AI Assistant for an Orthodontic Front Office" — picture project-local-assistant.svg. From "Final project 1.pdf" (a proposal; the assistant is not built yet).
+  3. "Predicting Which Orthodontic Patients Start Treatment" — picture project-patient-conversion.svg (bar chart from my report). From "Project 2.pdf" (data preparation and charts; the model is the next phase).
+- Block "Education & Experience" (from my CV, with dates):
+  - Education: Master of Science in Artificial Intelligence, Atlantis University · 2025–2027 / Digital Marketing Certification, DMI & ESPM · 2024 / Bachelor's Degree in Publicity and Advertising, Pontifical Catholic University of Goiás · 2009
+  - Experience: AI Marketing Specialist & Customer Service Assistant, Barbosa Orthodontics · May 2026–Aug 2026 / Brand Manager, E-commerce & Digital Marketing, Ju Santo Store · 2009–2023 / Volunteer, Cancer Hospital of Goiás · 2017–2020
+- Other files in my folder: CONTEXT.md (this file), REPORT.md (one-page summary)
+
+## Tonight (Wednesday 2026-09-30)
+- Found my first pull request #63 was MERGED by my teacher
+- Switched to main and pulled the latest class project into my fork and my laptop (no new clone)
+- Switched back to my own branch and merged the latest main into it (no new branch)
+- Added the accent to my name everywhere: Espírito
+- Removed the empty fourth link button
+- Replaced the 4 template cards with my 3 real projects, written in plain language, each with a picture
+- Filled in Education & Experience from my CV, then removed Peter Coppola to match my new CV
+- Rewrote my one line: starts with what I have done, no repeat of my name, no marketing words
+- Privacy: my first CV showed my phone number, so it was never sent. My new CV (no phone, no city) is the only one on GitHub.
+- Opened pull request #76 "Update Juliana do Espírito Santo page" and updated its description:
+  https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/76
+- Saves sent to #76:
+  - 5959526 Fix links, project cards and education
+  - a8f7208 Remove résumé to keep personal details private
+  - 6b65958 Add project cards with pictures
+  - cf1767d Add dates and volunteer role to education and experience
+  - fdae4ac Add public CV and match experience to it
+  - 2b96801 Update CONTEXT.md
+
+## Monday (2026-09-28) — setup
+- Wrote CLAUDE.md and CONTEXT.md
+- Installed gh 2.101.0 (no Homebrew, no password) and signed in as jujusanto
+- Forked the class project, cloned my fork, created my branch, copied _template into my folder
+- Put my name, my one line, my photo, and my LinkedIn and GitHub links on the page
+- Saved "Add Juliana do Espirito Santo page" and opened pull request #63 (now merged):
+  https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/63
+
+## Questions still open
+- Were my two orthodontic projects part of my internship, or course projects only? (Cards say "course" / "an orthodontic practice")
+- Did I run the test of Llama 3.2 3B on my MacBook Air (about 45 tokens per second)? If yes, it can go on card 2.
+- Is the 500-patient dataset in project 3 real or sample data?
+- My Gmail address is on my public CV — OK to keep?
+
+## Next step
+- Wait for my teacher to merge pull request #76
