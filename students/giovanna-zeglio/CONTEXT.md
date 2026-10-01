@@ -13,7 +13,10 @@ Created the fork through GitHub in the browser, cloned it locally, created the s
 index.html, photo.jpg, resume.pdf, CLAUDE.md, CONTEXT.md.
 
 ## Next
-Commit files to the student branch, verify public links, open the pull request to upstream main, then write REPORT.md using the actual history. Instructor review and merge are pending. No claim of deployment or peer review has been made.
+Pull request opened: https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/78. Two browser commits saved the page and supporting files. GitHub profile, public PDF download, and source folder returned HTTP 200. LinkedIn blocked automated access with status 999; the supplied URL is retained and its logged-out view requires manual verification. Write REPORT.md from the final git history and submit it with the PR URL. Instructor review and merge are pending. No claim of deployment or peer review has been made.
 
 ## Tools
 GitHub browser and Codex were used; GitHub CLI is not installed in this environment. The GitHub connector could read but its branch write returned 403, so browser writes are used.
+
+## Pull request
+https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/78
