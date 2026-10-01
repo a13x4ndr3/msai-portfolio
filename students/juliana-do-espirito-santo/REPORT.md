@@ -6,7 +6,7 @@
 | **GitHub username** | [jujusanto](https://github.com/jujusanto) |
 | **Branch** | `student/juliana-do-espirito-santo` |
 | **Folder** | `students/juliana-do-espirito-santo/` |
-| **Pull requests** | [#63 — Add Juliana do Espirito Santo page](https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/63) (merged) · [#76 — Update Juliana do Espírito Santo page](https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/76) (open, waiting for review) |
+| **Pull requests** | [#63 — Add Juliana do Espirito Santo page](https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/63) (merged) · [#76 — Round two — Juliana do Espírito Santo](https://github.com/rodolfocapdevilla-au/msai-portfolio/pull/76) (open, waiting for review) |
 
 ## My one line
 > After more than ten years running the brand and marketing of an online store, I now study Artificial Intelligence at Atlantis University. My projects look at how AI can answer customers’ routine questions and show which people go on to become customers.
@@ -45,7 +45,7 @@
 | `cf1767d` | 2026-09-30 | Add dates and volunteer role to education and experience |
 | `fdae4ac` | 2026-09-30 | Add public CV and match experience to it |
 | `2b96801` | 2026-09-30 | Update CONTEXT.md |
-| (this save) | 2026-09-30 | Rewrite my first line and update notes |
+| `abf2363` | 2026-09-30 | Rewrite my first line and update notes |
 
 ## Still to do
 Wait for my teacher to merge pull request #76.
