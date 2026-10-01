@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MS in Artificial Intelligence — Student Work — Atlantis University</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a class="badge" href="./">MS in Artificial Intelligence</a>
+  <a class="pill" href="mockup/" target="_blank" rel="noopener">Mockup Display</a>
+  <span class="spacer"></span>
+  <a class="pill" href="https://atlantisuniversity.edu/program/master-of-science-in-artificial-intelligence/" target="_blank" rel="noopener">About the programme</a>
+  <a class="pill" href="https://atlantisuniversity.edu/" target="_blank" rel="noopener">Atlantis University</a>
+</nav>
+
+<div class="wrap">
+  <h1>Student work</h1>
+  <p class="lede">
+    Students of the MS in Artificial Intelligence at Atlantis University build real tools
+    during the programme. These are their pages — what they made, and what they did on it.
+  </p>
+
+  <h2>Summer &quot;D&quot; 2026 &middot; MAI 500</h2>
+  <div class="people" id="people-sd26"></div>
+  <p class="lede" id="empty-sd26" style="display:none">
+    Pages appear here as they are published. Nothing yet.
+  </p>
+
+  <h2>Fall &quot;A&quot; 2026 &middot; MAI 500 &mdash; FLEX</h2>
+  <div class="people" id="people-fa26"></div>
+  <p class="lede" id="empty-fa26" style="display:none">
+    Pages appear here as they are published. Nothing yet.
+  </p>
+
+  <noscript><p class="lede">Turn on JavaScript to see the list of student pages.</p></noscript>
+
+  <footer>
+    MS in Artificial Intelligence &middot; Atlantis University &middot;
+    Faculty Lead: Rodolfo Capdevilla, Ph.D.
+  </footer>
+</div>
+
+<script>
+/* The lists build themselves from whatever is in students/ on the live site.
+   Merge a pull request and the card appears — there is nothing to edit here.
+
+   One exception: which cohort a page belongs to. A folder name cannot say that, so
+   every closed cohort lists its own folders below, and the open one (slugs: null)
+   takes everything that is not claimed by a cohort above it. To open a new cohort,
+   move the current open list into its own entry and add the new one at the bottom. */
+(function () {
+  var REPO = 'rodolfocapdevilla-au/msai-portfolio';
+
+  var COHORTS = [
+    { id: 'sd26', slugs: [
+        'denise-quimi','example-page','juan-pablo-arnedo','maria-casasperich',
+        'mariia-osokina','nour-el-ain-boussaffa','rogerio-fontanario','sofia-moreno',
+        'valentina-ramirez','walid-abdelwahab','yaya-sow'
+      ] },
+    { id: 'fa26', slugs: null }
+  ];
+
+  /* Used only if the GitHub API is unreachable or rate-limited. A page published
+     since this list was last touched will be missing until the API answers again. */
+  var FALLBACK = COHORTS.reduce(function (all, c) {
+    return c.slugs ? all.concat(c.slugs) : all;
+  }, []);
+
+  function listFolders() {
+    return fetch('https://api.github.com/repos/' + REPO + '/contents/students')
+      .then(function (r) { if (!r.ok) throw new Error('api'); return r.json(); })
+      .then(function (j) {
+        return j.filter(function (e) { return e.type === 'dir'; })
+                .map(function (e) { return e.name; });
+      })
+      .catch(function () { return FALLBACK; });
+  }
+
+  function readPage(slug) {
+    return fetch('students/' + slug + '/index.html')
+      .then(function (r) { if (!r.ok) throw new Error('404'); return r.text(); })
+      .then(function (html) {
+        var doc = new DOMParser().parseFromString(html, 'text/html');
+        var h1 = doc.querySelector('h1');
+        var q = doc.querySelector('.quote');
+        var name = (h1 && h1.textContent || slug).trim();
+        var line = (q && q.textContent || '').trim().replace(/\s+/g, ' ');
+        if (line.length > 90) line = line.slice(0, 88).replace(/\s\S*$/, '') + '…';
+        return { slug: slug, name: name, line: line };
+      })
+      .catch(function () { return null; });
+  }
+
+  function card(p) {
+    var a = document.createElement('a');
+    a.className = 'person';
+    a.href = 'students/' + p.slug + '/';
+    var img = document.createElement('img');
+    img.src = 'students/' + p.slug + '/photo.jpg';
+    img.alt = '';
+    img.loading = 'lazy';
+    var n = document.createElement('div');
+    n.className = 'name';
+    n.textContent = p.name;
+    var l = document.createElement('div');
+    l.className = 'line';
+    l.textContent = p.line || 'MS in Artificial Intelligence';
+    a.appendChild(img); a.appendChild(n); a.appendChild(l);
+    return a;
+  }
+
+  function renderCohort(cohort, people) {
+    var grid = document.getElementById('people-' + cohort.id);
+    var empty = document.getElementById('empty-' + cohort.id);
+    if (!grid) { return; }
+    people = people.filter(Boolean).sort(function (a, b) {
+      return a.name.localeCompare(b.name);
+    });
+    if (!people.length) { if (empty) { empty.style.display = ''; } return; }
+    people.forEach(function (p) { grid.appendChild(card(p)); });
+  }
+
+  function cohortOf(slug) {
+    for (var i = 0; i < COHORTS.length; i++) {
+      if (COHORTS[i].slugs && COHORTS[i].slugs.indexOf(slug) !== -1) { return COHORTS[i]; }
+    }
+    for (var j = 0; j < COHORTS.length; j++) {
+      if (!COHORTS[j].slugs) { return COHORTS[j]; }
+    }
+    return null;
+  }
+
+  listFolders()
+    .then(function (slugs) { return Promise.all(slugs.map(readPage)); })
+    .then(function (people) {
+      COHORTS.forEach(function (c) {
+        renderCohort(c, people.filter(function (p) { return p && cohortOf(p.slug) === c; }));
+      });
+    })
+    .catch(function () {
+      COHORTS.forEach(function (c) {
+        var empty = document.getElementById('empty-' + c.id);
+        if (empty) { empty.style.display = ''; }
+      });
+    });
+})();
+</script>
+
+<script src="assets/feedback.js" defer></script>
+</body>
+</html>
