@@ -52,4 +52,5 @@
   - Replaced resume.pdf with my own new CV (…Final-2.pdf, 433 KB, 1 page, no phone number); Résumé button is back
   - Removed Peter Coppola from Experience to match my new CV
   - Saved and sent my new CV, Résumé button and Experience change to pull request #76
+  - Updated the description of pull request #76 to cover all my changes
 - Next step: wait for my teacher to merge pull request #76
