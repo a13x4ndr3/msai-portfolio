@@ -39,7 +39,16 @@
 - Opened a new pull request, "Round two — Alexandre Pasquini", against
   rodolfocapdevilla-au/msai-portfolio main.
 
+## What went wrong in round two, and the fix
+- My first upload went to the repository root, not students/alexandre-pasquini/, and overwrote the
+  shared CLAUDE.md, CONTEXT.md, REPORT.md and index.html. Deleting my copies also deleted the originals.
+- Fix: re-uploaded inside students/alexandre-pasquini/, added the instructor's repo as a second
+  remote (upstream), merged upstream/main, and restored the four shared files from upstream/main.
+- Check that worked: PR #77 changes only files under students/alexandre-pasquini/.
+- Rewrote the first two project cards to three sentences each (what it is, what I did, what came out).
+
 ## Next step
-1. Paste the round-two PR link in the class chat and wait for review
-2. Leave feedback on a classmate's page (graded, Step 12)
-3. Before next class: send the page link to one person outside class and ask "what do you think I do?"
+1. Push the card rewrite (index.html, CONTEXT.md, REPORT.md) to the same branch; PR #77 updates itself
+2. Wait for #77 to be merged; if there are review notes, answer them and push again (no second PR)
+3. Open the live page signed out and on a phone, click the CV button and all four links
+4. Submit the live address and REPORT.md in the portal (due 4 October 2026, 11:59 PM)
